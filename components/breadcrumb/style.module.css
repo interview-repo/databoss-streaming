@@ -1,0 +1,17 @@
+.breadcrumb {
+    display: flex;
+    align-items: center;
+    min-height: 56px;
+    background-color: #414141;
+    box-shadow: 0 0 20px #000;
+    font-weight: 500;
+
+    &_inner {
+        flex: 1;
+
+        a {
+            font-size: 1.4rem;
+            color: #fff;
+        }
+    }
+}

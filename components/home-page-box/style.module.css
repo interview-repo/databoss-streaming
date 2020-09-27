@@ -1,0 +1,41 @@
+ul.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(144px, 1fr));
+    grid-gap: 15px;
+    grid-auto-rows: 225px;
+
+    li {
+        display: flex;
+        flex-direction: column;
+        cursor: pointer;
+
+        a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            background-color: #000;
+            font-size: 1.8571428571428572rem;
+            font-weight: 600;
+            color: #a5a5a5;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-image: url(/assets/placeholder.png);
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        p {
+            text-align: center;
+            padding: 0 10px;
+            margin-top: 10px;
+            color: rgb(30, 30, 30);
+
+            &:hover  {
+                font-weight: 600;
+            }
+        }
+    }
+}

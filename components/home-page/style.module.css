@@ -1,0 +1,9 @@
+.home_page {
+    min-height: 60vh;
+    padding-top: 50px!important;
+    padding-bottom: var(--footer-t-height)!important;
+
+    @media (--t) {
+        padding-bottom: var(--footer-height)!important;
+    }
+}

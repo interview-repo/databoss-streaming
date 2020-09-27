@@ -1,0 +1,76 @@
+.header {
+    position: relative;
+    display: flex;
+    min-height: 60px;
+    background-color: #017efe;
+    box-shadow: 0 0 20px #000;
+
+    &_inner {
+        display: flex;
+        width: 100%;
+        flex-direction: column;
+
+        @media (--t) {
+            flex-direction: row;
+        }
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        min-height: 36px;
+        font-size: 1.8rem;
+        color: #fff;
+
+        @media (--t) {
+            justify-content: flex-start;
+        }
+
+        a {
+            font-weight: 600;
+
+            span {
+                color: #e2e2e2;
+            }
+        }
+    }
+
+    .action_button {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: auto;
+
+        @media (--t) {
+            margin-left: auto;
+            margin-right: initial;
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        a {
+            margin-right: 30px;
+            color: #dedede;
+            cursor: pointer;
+            font-weight: 500;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+
+        button {
+            padding: 10px 15px;
+            background-color: #424242;
+            border-radius: 8px;
+            font-weight: 600;
+            color: #fff;
+
+            &:hover {
+                background-color: #2e2e2e;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,101 @@
+.lists {
+    padding-bottom: var(--footer-t-height);
+
+    @media (--t) {
+        padding-bottom: var(--footer-height)!important;
+    }
+
+    .top {
+        padding: 50px 0 35px 0;
+
+        form {
+            display: flex;
+            width: 100%;
+            align-items: center;
+            flex-direction: column;
+            justify-content: center;
+
+            @media (--t) {
+                flex-direction: row;
+            }
+
+            .select {
+                text-align: right;
+                min-width: 250px;
+                padding: 10px 15px;
+                border: 1px solid #d8d8d8;
+                margin-top: 20px;
+
+                @media (--t) {
+                    margin-top: 0;
+                    margin-left: auto;
+                }
+            }
+        }
+    }
+
+    
+    
+    
+    div.filter {
+        position: relative;
+        width: 100%;
+
+        .sort {
+            display: flex;
+            padding: 30px 0 25px;
+
+            p {
+                display: inline-block;
+                margin-right: 35px;
+            }
+        }
+        .yearSort{
+            display: block;
+            overflow: auto;
+            width: 100%;
+            position: absolute;
+            right: -50%;
+        }
+
+        .group {
+            position: absolute;
+            right: 0;
+            top: 30px;
+        }
+    }
+    
+    
+
+    ul.filter {
+        list-style: none;
+        display: flex;
+        margin: 50px 0 190px;
+
+        li {
+            width: 50%;
+            text-align: center;
+
+            
+
+            button {
+                width: 40%;
+                background-color: #007efe;
+                margin: 0 1%;
+                padding: 10px 10px;
+                border-radius: 260% 80px;
+                color: #fff;
+                box-shadow: 1px 16px 8px -13px #00000073;
+                opacity: .65;
+
+                &.active {opacity: 1;}
+
+                &:last-child {
+                    background-color: #3f3f3f;
+                    transform: rotate(5deg);
+                }
+            }
+        }
+    }
+    
+}

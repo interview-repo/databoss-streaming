@@ -1,0 +1,28 @@
+.form {
+    display: flex;
+
+    input[type="text"] {
+        min-width: inherit;
+        height: 40px;
+        padding: 10px 55px;
+        border: 1px solid #3c3c3c1f;
+        margin-right: -35px;
+        box-shadow: 5px 10px 15px -9px #41414136;
+
+        @media (--t) {
+            min-width: 60vw;
+        }
+    }
+
+    button {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        background-color: #017efe;
+        color: #fff;
+
+        &:hover {
+            background-color: #086cd2;
+        }
+    }
+}

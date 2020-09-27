@@ -1,0 +1,42 @@
+.yearGroup{
+    margin-bottom: 25%;
+
+    h1{
+        display: inline-block;
+        margin: 10px 0 -65px -65px;
+        font-style: oblique;
+        font-size: 1.5em;
+    }
+
+    .yearBox{
+        margin-bottom: -2%;
+        border-bottom: 1px solid #ccc;
+        padding-bottom: 1%;
+    }
+
+    
+}
+.box {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(135px, 1fr));
+    grid-gap: 15px;
+    grid-row-gap: 30px;
+    cursor: pointer;
+    >div{
+        min-height: 260px;
+    }
+
+    .image {
+        width: 100%;
+        box-shadow: -13px 11px 7px -8px #0000009e;
+    }
+
+    .title {
+        padding: 15px 5px;
+        text-align: center;
+
+        &:hover {
+            font-weight: 600;
+        }
+    }
+}
