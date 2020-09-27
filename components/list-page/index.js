@@ -5,7 +5,7 @@ import BreadCrumb from "../breadcrumb";
 import Container from "../container";
 import List from "../list";
 import Sort from "../sort";
-import Search from "../Search";
+import Search from "../search";
 
 import useForm from "../../lib/useForm";
 import sortData from "../../lib/useSort";
