@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "postcss-custom-media": "^7.0.8",
+    "postcss-custom-media": "^8.0.0",
     "postcss-nested": "^4.2.3"
   }
 }
